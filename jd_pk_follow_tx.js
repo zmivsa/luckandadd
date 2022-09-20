@@ -1,7 +1,8 @@
 /*
 更新时间：2022-4-11
 皮卡车
-
+[task_local]
+cron: 0 1 1 1 1
 # 变量
 export PKC_TXGZYL=""
 
