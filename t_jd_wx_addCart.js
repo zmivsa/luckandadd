@@ -1,7 +1,7 @@
 /*
 [task_local]
-# 加购有礼
-7 7 7 7 7  m_jd_wx_addCart.js, tag=加购有礼, enabled=true
+cron: 0 1 1 1 1
+m_jd_wx_addCart.js, tag=加购有礼, enabled=true
  */
 const $ = new Env('加购有礼');
 const notify = $.isNode() ? require('./sendNotify') : '';
