@@ -1,7 +1,8 @@
 /*
 [task_local]
 # 幸运抽奖
-7 7 7 7 7  m_jd_wx_addCart.js, tag=幸运抽奖, enabled=true
+cron: 0 1 1 1 1
+m_jd_wx_addCart.js, tag=幸运抽奖, enabled=true
  */
 
 const $ = new Env('幸运抽奖');
