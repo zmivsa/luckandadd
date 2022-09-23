@@ -1,6 +1,6 @@
 /*
 [task_local]
-cron: 0 1 1 1 1
+cron: 1 10 * * *
 jdsupermarket.js, tag=超新星商城 兑换, enabled=true
 
 
