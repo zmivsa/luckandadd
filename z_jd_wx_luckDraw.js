@@ -1,8 +1,7 @@
 /*
 [task_local]
 # 幸运抽奖
-cron: 0 1 1 1 1
-m_jd_wx_addCart.js, tag=幸运抽奖, enabled=true
+7 7 7 7 7  m_jd_wx_addCart.js, tag=幸运抽奖, enabled=true
  */
 
 const $ = new Env('幸运抽奖');
@@ -54,7 +53,7 @@ if ($.redisStatus) {
 $.openedCardStatus = false
 $.skipCk = process.env.WX_SKIP_PIN ? process.env.WX_SKIP_PIN : '';
 
-$['\x61\x64\x64\x72\x65\x73\x73\x41\x72\x72\x61\x79']=["\u6e56\u5317\u7701\x2c\u8346\u95e8\u5e02\x2c\u6387\u5200\u533a\x2c\u56e2\u6797\u94fa\u9547\u957f\u57ce\u6c7d\u8f66\u8346\u95e8\u5206\u516c\u53f8\u4e00\u53f7\u95e8\x2c\x31\x33\x30\x38\x39\x36\x35\x30\x30\x35\x38\x2c\x33\x30\x30\x31\x39\x31\x2c\x34\x32\x30\x38\x30\x34\x2c \u8d75\u745e"]
+$['\x61\x64\x64\x72\x65\x73\x73\x41\x72\x72\x61\x79']=["\u6e56\u5317\u7701\x2c\u8346\u95e8\u5e02\x2c\u6387\u5200\u533a\x2c\u56e2\u6797\u94fa\u9547\u957f\u57ce\u6c7d\u8f66\u8346\u95e8\u5206\u516c\u53f8\u4e00\u53f7\u95e8\x2c\x31\x37\x31\x32\x33\x33\x34\x32\x33\x34\x30\x2c\x33\x30\x30\x31\x39\x31\x2c\x34\x32\x30\x38\x30\x34\x2c \u8d75\u745e"]
 
 
 if ($.isNode()) {
